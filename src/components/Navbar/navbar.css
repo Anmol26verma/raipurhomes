@@ -1,0 +1,60 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    gap:  15rem;
+    margin: 0 2rem;
+
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+    padding: 1rem;
+    font-size: large;
+}
+.login #user {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    background-color:#C8A15A;
+    
+}
+#user .user {
+    font-size: 1.3rem;
+}
+
+#login {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: black;
+}
+
+#post {
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #C8A15A;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+}
+#post:hover {
+    background-color: #C7A14B;
+    color: white;
+}
+#edit {
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
