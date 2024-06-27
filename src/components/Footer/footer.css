@@ -1,5 +1,4 @@
 .footer{
-    margin-top: 3000px;
     padding: 50px;
     display: flex;
     align-items: flex-start;
@@ -84,10 +83,10 @@
     align-items: center;
     justify-content: flex-start;
     margin-top: 20px;
+    margin-left: -12px;
 }
 
 .playstore img {
-    margin-right: 10px;
     width: 200px;
     height: auto;
     background: transparent;

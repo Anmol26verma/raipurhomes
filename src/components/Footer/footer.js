@@ -97,6 +97,11 @@ const footer = () => {
                   src={require("../images/playstore.png")}
                   alt="Google Play"
                 />
+                 <img
+                  src={require("../images/appstore.png")}
+                  alt="Google Play"
+                  style={{ width: "150px" }}
+                />
               </div>
               <div>
               <p className="des-2">

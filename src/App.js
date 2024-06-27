@@ -9,15 +9,6 @@ function App() {
       
       <Navbar />
       <Main />
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-
       <Footer />
     </div>
   );
