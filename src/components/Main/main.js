@@ -94,7 +94,6 @@ const main = () => {
             <button className="filter">Agricultural</button>
             <button className="filter">Industrial</button>
             <button className="filter">Semi-Commercial</button>
-            <button className="filter">Residential</button>
             <button className="filter">
               <FaSlidersH className="icon" />
               Filter
@@ -127,7 +126,7 @@ const main = () => {
               </div>
               <hr />
               <div className="price">
-                <p>&#8377;20,00,000</p>
+                <p><span>&#8377;</span> 20,00,000</p>
                 <i id="phone">
                   <FaPhone />
                 </i>

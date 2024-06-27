@@ -1,4 +1,5 @@
-.footer{
+/* Base styles */
+.footer {
     padding: 50px;
     display: flex;
     align-items: flex-start;
@@ -13,18 +14,20 @@
     flex-direction: column;
     align-items: flex-start;
 }
+
 .col1 img {
     width: 100px;
     height: 150px;
 }
-.des{
+
+.des {
     margin-top: 10px;
     font-size: 18px;
     line-height: 25px;
     text-align: start;
 }
 
-.quicklink{
+.quicklink {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -32,14 +35,15 @@
     margin-left: 50px;
     font-size: medium;
     color: #fff;
-    
 }
-.quicklink h5{
+
+.quicklink h5 {
     margin-bottom: 10px;
     text-align: start;
 }
 
-.list-unstyled, .list-unstyled a {
+.list-unstyled,
+.list-unstyled a {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -57,6 +61,7 @@
     margin-left: 50px;
     font-size: medium;
 }
+
 .social-icons {
     display: flex;
     width: 50%;
@@ -66,6 +71,7 @@
     gap: 20px;
     color: #fff;
 }
+
 .social-icons a {
     text-decoration: none;
     font-size: 30px;
@@ -78,6 +84,7 @@
     transition: 0.3s;
     color: #fff;
 }
+
 .playstore {
     display: flex;
     align-items: center;
@@ -90,18 +97,123 @@
     width: 200px;
     height: auto;
     background: transparent;
-}    
+}
 
 .des-2 {
     margin-top: 10px;
     text-align: start;
     font-size: 12px;
 }
+
 .des-3 {
     margin-top: 10px;
     text-align: start;
 }
 
+/* Media query for 480px screens (smaller devices) */
+@media (max-width: 480px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
 
+    .col1,
+    .col2,
+    .quicklink {
+        margin-left: 0;
+        margin-bottom: 20px;
+        width: 100%;
+        align-items: center;
+    }
 
+    .col1 img {
+        width: 80px;
+        height: 120px;
+    }
 
+    .des,
+    .quicklink,
+    .col2 {
+        font-size: 16px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .social-icons {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .social-icons a {
+        font-size: 24px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .playstore {
+        justify-content: center;
+        margin-left: 0;
+    }
+
+    .playstore img {
+        width: 150px;
+    }
+
+    .des-2,
+    .des-3 {
+        font-size: 14px;
+        text-align: center;
+    }
+}
+
+/* Media query for 768px screens (tablets and larger) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .footer {
+        padding: 50px;
+    }
+
+    .col1,
+    .col2,
+    .quicklink {
+        margin-left: 0;
+        width: 50%;
+        align-items: flex-start;
+    }
+
+    .col1 img {
+        width: 100px;
+        height: 150px;
+    }
+
+    .des,
+    .quicklink h5,
+    .col2 {
+        font-size: 18px;
+        text-align: start;
+        align-items: flex-start;
+    }
+
+    .social-icons {
+        width: 50%;
+    }
+
+    .social-icons a {
+        font-size: 30px;
+        width: 50px;
+        height: 50px;
+    }
+
+    .playstore img {
+        width: 200px;
+    }
+
+    .des-2 {
+        font-size: 12px;
+    }
+
+    .des-3 {
+        font-size: 16px;
+    }
+}
